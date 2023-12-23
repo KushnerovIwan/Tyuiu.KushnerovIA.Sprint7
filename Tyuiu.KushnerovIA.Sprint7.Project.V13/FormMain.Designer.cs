@@ -50,6 +50,8 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.guna2GroupBoxResult_KIA = new Guna.UI2.WinForms.Guna2GroupBox();
             this.chartMain_KIA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewMain_KIA = new System.Windows.Forms.DataGridView();
+            this.textBoxAvgArea_KIA = new System.Windows.Forms.TextBox();
+            this.iconButtonAvgArea_KIA = new FontAwesome.Sharp.IconButton();
             this.guna2GroupBoxMain_KIA.SuspendLayout();
             this.guna2GroupBoxResult_KIA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartMain_KIA)).BeginInit();
@@ -182,7 +184,7 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.iconButtonGraf_KIA.IconColor = System.Drawing.Color.White;
             this.iconButtonGraf_KIA.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.iconButtonGraf_KIA.IconSize = 44;
-            this.iconButtonGraf_KIA.Location = new System.Drawing.Point(12, 398);
+            this.iconButtonGraf_KIA.Location = new System.Drawing.Point(12, 526);
             this.iconButtonGraf_KIA.Name = "iconButtonGraf_KIA";
             this.iconButtonGraf_KIA.Size = new System.Drawing.Size(328, 74);
             this.iconButtonGraf_KIA.TabIndex = 9;
@@ -196,6 +198,8 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.guna2GroupBoxMain_KIA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
             this.guna2GroupBoxMain_KIA.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(52)))));
             this.guna2GroupBoxMain_KIA.BorderStyle = System.Drawing.Drawing2D.DashStyle.Custom;
+            this.guna2GroupBoxMain_KIA.Controls.Add(this.textBoxAvgArea_KIA);
+            this.guna2GroupBoxMain_KIA.Controls.Add(this.iconButtonAvgArea_KIA);
             this.guna2GroupBoxMain_KIA.Controls.Add(this.iconButtonGraf_KIA);
             this.guna2GroupBoxMain_KIA.Controls.Add(this.textBoxResultAver_KIA);
             this.guna2GroupBoxMain_KIA.Controls.Add(this.iconButtonAverage_KIA);
@@ -279,13 +283,38 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewMain_KIA.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewMain_KIA.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMain_KIA.ColumnHeadersVisible = false;
             this.dataGridViewMain_KIA.Location = new System.Drawing.Point(7, 64);
             this.dataGridViewMain_KIA.Name = "dataGridViewMain_KIA";
             this.dataGridViewMain_KIA.RowHeadersWidth = 51;
             this.dataGridViewMain_KIA.RowTemplate.Height = 24;
             this.dataGridViewMain_KIA.Size = new System.Drawing.Size(737, 273);
             this.dataGridViewMain_KIA.TabIndex = 0;
+            // 
+            // textBoxAvgArea_KIA
+            // 
+            this.textBoxAvgArea_KIA.Location = new System.Drawing.Point(12, 472);
+            this.textBoxAvgArea_KIA.Name = "textBoxAvgArea_KIA";
+            this.textBoxAvgArea_KIA.ReadOnly = true;
+            this.textBoxAvgArea_KIA.Size = new System.Drawing.Size(328, 34);
+            this.textBoxAvgArea_KIA.TabIndex = 11;
+            // 
+            // iconButtonAvgArea_KIA
+            // 
+            this.iconButtonAvgArea_KIA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonAvgArea_KIA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonAvgArea_KIA.ForeColor = System.Drawing.Color.White;
+            this.iconButtonAvgArea_KIA.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonAvgArea_KIA.IconColor = System.Drawing.Color.White;
+            this.iconButtonAvgArea_KIA.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButtonAvgArea_KIA.IconSize = 44;
+            this.iconButtonAvgArea_KIA.Location = new System.Drawing.Point(12, 378);
+            this.iconButtonAvgArea_KIA.Name = "iconButtonAvgArea_KIA";
+            this.iconButtonAvgArea_KIA.Size = new System.Drawing.Size(328, 74);
+            this.iconButtonAvgArea_KIA.TabIndex = 10;
+            this.iconButtonAvgArea_KIA.Text = "Найти общее среднее значение площади";
+            this.toolTipMain_KIA.SetToolTip(this.iconButtonAvgArea_KIA, "Поиск");
+            this.iconButtonAvgArea_KIA.UseVisualStyleBackColor = true;
+            this.iconButtonAvgArea_KIA.Click += new System.EventHandler(this.iconButtonAvgArea_KIA_Click);
             // 
             // FormMain
             // 
@@ -327,6 +356,8 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
         private FontAwesome.Sharp.IconButton iconButtonAverage_KIA;
         private FontAwesome.Sharp.IconButton iconButtonGraf_KIA;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartMain_KIA;
+        private System.Windows.Forms.TextBox textBoxAvgArea_KIA;
+        private FontAwesome.Sharp.IconButton iconButtonAvgArea_KIA;
     }
 }
 

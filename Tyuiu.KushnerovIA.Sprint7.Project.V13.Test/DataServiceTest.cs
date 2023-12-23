@@ -18,5 +18,16 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13.Test
             double wait = 4.67;
             Assert.AreEqual(wait, res);
         }
+
+        public void AverageArea()
+        {
+            DataService ds = new DataService();
+            int[,] mas = new int[3, 4] { { 1, 2, 3, 5 },
+                                         { 9, 10, 5, 5 },
+                                         { 8, 0, 6, 5 }};
+            double res = ds.avgArea(mas);
+            double wait = 5;
+            Assert.AreEqual(wait, res);
+        }
     }
 }

@@ -164,7 +164,7 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             int rows = dataGridViewMain_KIA.Rows.Count - 1;
             double avg = c / rows;
             avg = Math.Round(avg, 2);
-            dataGridViewMain_KIA.Text = avg.ToString();
+            textBoxResultAver_KIA.Text = avg.ToString();
         }
 
 
@@ -190,6 +190,17 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             formInfo.ShowDialog();
         }
 
-
+        private void iconButtonAvgArea_KIA_Click(object sender, EventArgs e)
+        {
+            int c = 0;
+            for (int i = 0; i < dataGridViewMain_KIA.Rows.Count; i++)
+            {
+                c += Convert.ToInt32(dataGridViewMain_KIA.Rows[i].Cells[3].Value);
+            }
+            int rows = dataGridViewMain_KIA.Rows.Count - 1;
+            double avg = c / rows;
+            avg = Math.Round(avg, 2);
+            textBoxAvgArea_KIA.Text = avg.ToString();
+        }
     }
 }
