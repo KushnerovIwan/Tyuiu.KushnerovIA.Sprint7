@@ -44,14 +44,14 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.iconButtonSearch_KIA = new FontAwesome.Sharp.IconButton();
             this.iconButtonAverage_KIA = new FontAwesome.Sharp.IconButton();
             this.iconButtonGraf_KIA = new FontAwesome.Sharp.IconButton();
+            this.iconButtonAvgArea_KIA = new FontAwesome.Sharp.IconButton();
             this.guna2GroupBoxMain_KIA = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.textBoxAvgArea_KIA = new System.Windows.Forms.TextBox();
             this.textBoxResultAver_KIA = new System.Windows.Forms.TextBox();
             this.textBoxSearch_KIA = new System.Windows.Forms.TextBox();
             this.guna2GroupBoxResult_KIA = new Guna.UI2.WinForms.Guna2GroupBox();
             this.chartMain_KIA = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewMain_KIA = new System.Windows.Forms.DataGridView();
-            this.textBoxAvgArea_KIA = new System.Windows.Forms.TextBox();
-            this.iconButtonAvgArea_KIA = new FontAwesome.Sharp.IconButton();
             this.guna2GroupBoxMain_KIA.SuspendLayout();
             this.guna2GroupBoxResult_KIA.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartMain_KIA)).BeginInit();
@@ -193,6 +193,24 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.iconButtonGraf_KIA.UseVisualStyleBackColor = true;
             this.iconButtonGraf_KIA.Click += new System.EventHandler(this.iconButtonGraf_KIA_Click);
             // 
+            // iconButtonAvgArea_KIA
+            // 
+            this.iconButtonAvgArea_KIA.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.iconButtonAvgArea_KIA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonAvgArea_KIA.ForeColor = System.Drawing.Color.White;
+            this.iconButtonAvgArea_KIA.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonAvgArea_KIA.IconColor = System.Drawing.Color.White;
+            this.iconButtonAvgArea_KIA.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.iconButtonAvgArea_KIA.IconSize = 44;
+            this.iconButtonAvgArea_KIA.Location = new System.Drawing.Point(12, 378);
+            this.iconButtonAvgArea_KIA.Name = "iconButtonAvgArea_KIA";
+            this.iconButtonAvgArea_KIA.Size = new System.Drawing.Size(328, 74);
+            this.iconButtonAvgArea_KIA.TabIndex = 10;
+            this.iconButtonAvgArea_KIA.Text = "Найти общее среднее значение площади";
+            this.toolTipMain_KIA.SetToolTip(this.iconButtonAvgArea_KIA, "Поиск");
+            this.iconButtonAvgArea_KIA.UseVisualStyleBackColor = true;
+            this.iconButtonAvgArea_KIA.Click += new System.EventHandler(this.iconButtonAvgArea_KIA_Click);
+            // 
             // guna2GroupBoxMain_KIA
             // 
             this.guna2GroupBoxMain_KIA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
@@ -222,6 +240,14 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.guna2GroupBoxMain_KIA.Text = "Панель управления";
             this.guna2GroupBoxMain_KIA.TextOffset = new System.Drawing.Point(0, 10);
             this.guna2GroupBoxMain_KIA.Click += new System.EventHandler(this.guna2GroupBoxMain_KIA_Click);
+            // 
+            // textBoxAvgArea_KIA
+            // 
+            this.textBoxAvgArea_KIA.Location = new System.Drawing.Point(12, 472);
+            this.textBoxAvgArea_KIA.Name = "textBoxAvgArea_KIA";
+            this.textBoxAvgArea_KIA.ReadOnly = true;
+            this.textBoxAvgArea_KIA.Size = new System.Drawing.Size(328, 34);
+            this.textBoxAvgArea_KIA.TabIndex = 11;
             // 
             // textBoxResultAver_KIA
             // 
@@ -290,32 +316,6 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.dataGridViewMain_KIA.Size = new System.Drawing.Size(737, 273);
             this.dataGridViewMain_KIA.TabIndex = 0;
             // 
-            // textBoxAvgArea_KIA
-            // 
-            this.textBoxAvgArea_KIA.Location = new System.Drawing.Point(12, 472);
-            this.textBoxAvgArea_KIA.Name = "textBoxAvgArea_KIA";
-            this.textBoxAvgArea_KIA.ReadOnly = true;
-            this.textBoxAvgArea_KIA.Size = new System.Drawing.Size(328, 34);
-            this.textBoxAvgArea_KIA.TabIndex = 11;
-            // 
-            // iconButtonAvgArea_KIA
-            // 
-            this.iconButtonAvgArea_KIA.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButtonAvgArea_KIA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonAvgArea_KIA.ForeColor = System.Drawing.Color.White;
-            this.iconButtonAvgArea_KIA.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButtonAvgArea_KIA.IconColor = System.Drawing.Color.White;
-            this.iconButtonAvgArea_KIA.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButtonAvgArea_KIA.IconSize = 44;
-            this.iconButtonAvgArea_KIA.Location = new System.Drawing.Point(12, 378);
-            this.iconButtonAvgArea_KIA.Name = "iconButtonAvgArea_KIA";
-            this.iconButtonAvgArea_KIA.Size = new System.Drawing.Size(328, 74);
-            this.iconButtonAvgArea_KIA.TabIndex = 10;
-            this.iconButtonAvgArea_KIA.Text = "Найти общее среднее значение площади";
-            this.toolTipMain_KIA.SetToolTip(this.iconButtonAvgArea_KIA, "Поиск");
-            this.iconButtonAvgArea_KIA.UseVisualStyleBackColor = true;
-            this.iconButtonAvgArea_KIA.Click += new System.EventHandler(this.iconButtonAvgArea_KIA_Click);
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -326,6 +326,7 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.Controls.Add(this.guna2GroupBoxResult_KIA);
             this.Controls.Add(this.guna2GroupBoxMain_KIA);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1120, 739);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CG - Country Guid";
