@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBoxGuide_KIA.Text" xml:space="preserve">
+    <value>Руководство пользователя для программы 'CG - Country Guid'
+
+1. Установка программы
+- Скачайте программу 'CG - Country Guid' с официального сайта.
+- Запустите установочный файл и следуйте инструкциям на экране для завершения установки.
+
+2. Запуск программы
+- После завершения установки, найдите ярлык программы на рабочем столе или в меню "Пуск" и дважды щелкните по нему.
+- Программа 'CG - Country Guid' откроется в главном окне.
+
+3. Интерфейс программы
+- Главное окно программы состоит из нескольких блоков, включая:
+- Панель навигации: здесь вы можете выбрать действия, которые хотите выполнить, например, "Информация о стране", "Статистика", "Графики" и "Сравнение стран".
+- Окно содержимого: здесь будет отображаться выбранная вами информация или результаты действий.
+- Окно "О программе": здесь вы можете найти информацию о версии программы, разработчике и контактных данных.
+
+4. Информация о стране
+- Чтобы получить информацию о стране, выберите пункт "Информация о стране" из панели навигации.
+- Введите название страны в соответствующее поле в окне содержимого или выберите из предложенного списка.
+- Нажмите кнопку "Поиск" или клавишу "Enter" на клавиатуре.
+- В результате появится информация о стране, такая как население, валюта, столица, язык и прочее.
+
+5. Статистика
+- Чтобы увидеть статистику, выберите пункт "Статистика" из панели навигации.
+- Выберите интересующую вас статистическую категорию, например, население, ВВП или уровень безработицы.
+- Введите желаемый временной диапазон и нажмите кнопку "Показать".
+- Вы увидите график или таблицу с соответствующей статистикой для выбранной страны.
+
+6. Графики
+- Чтобы увидеть графики, выберите пункт "Графики" из панели навигации.
+- Выберите интересующую вас категорию для сравнения, например, население или ВВП.
+- Выберите две или более страны для сравнения из предложенного списка.
+- Нажмите кнопку "Показать" и вы увидите график, на котором будут представлены выбранные категории и страны для сравнения.
+
+7. Сравнение стран
+- Чтобы сравнить страны, выберите пункт "Сравнение стран" из панели навигации.
+- Введите названия стран, которые вы хотите сравнить, в соответствующие поля.
+- Нажмите кнопку "Сравнить".
+- Вы увидите таблицу с данными о выбранных странах, которые можно сравнивать по различным параметрам, таким как население, площадь, ВВП и другие.
+
+8. О программе
+- Чтобы узнать информацию о программе, выберите пункт "О программе" в панели навигации.
+- В отдельном окне отобразится информация о версии программы, разработчике и контактных данных.
+- Вы также можете найти полезные ссылки и инструкции по использованию программы.
+
+9. Закрытие программы
+- Чтобы закрыть программу, нажмите кнопку "Выход" или используйте комбинацию клавиш Alt+F4.
+Это руководство поможет вам использовать программу 'CG - Country Guid' для получения информации о странах, просмотра статистики, просмотра графиков и сравнения стран.
+Наслаждайтесь использованием программы и открывайте для себя мир стран и их разнообразие!</value>
+  </data>
+</root>
