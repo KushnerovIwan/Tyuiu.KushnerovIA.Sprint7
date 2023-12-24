@@ -171,7 +171,7 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.iconButtonAverage_KIA.Size = new System.Drawing.Size(328, 74);
             this.iconButtonAverage_KIA.TabIndex = 7;
             this.iconButtonAverage_KIA.Text = "Найти общее среднее значение населения";
-            this.toolTipMain_KIA.SetToolTip(this.iconButtonAverage_KIA, "Поиск");
+            this.toolTipMain_KIA.SetToolTip(this.iconButtonAverage_KIA, "Найти среднее значение насееления всех стран");
             this.iconButtonAverage_KIA.UseVisualStyleBackColor = true;
             this.iconButtonAverage_KIA.Click += new System.EventHandler(this.iconButtonAverage_KIA_Click);
             // 
@@ -189,7 +189,7 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.iconButtonGraf_KIA.Size = new System.Drawing.Size(328, 74);
             this.iconButtonGraf_KIA.TabIndex = 9;
             this.iconButtonGraf_KIA.Text = "Построить график населения стран";
-            this.toolTipMain_KIA.SetToolTip(this.iconButtonGraf_KIA, "Поиск");
+            this.toolTipMain_KIA.SetToolTip(this.iconButtonGraf_KIA, "Построить график населения стран");
             this.iconButtonGraf_KIA.UseVisualStyleBackColor = true;
             this.iconButtonGraf_KIA.Click += new System.EventHandler(this.iconButtonGraf_KIA_Click);
             // 
@@ -207,7 +207,7 @@ namespace Tyuiu.KushnerovIA.Sprint7.Project.V13
             this.iconButtonAvgArea_KIA.Size = new System.Drawing.Size(328, 74);
             this.iconButtonAvgArea_KIA.TabIndex = 10;
             this.iconButtonAvgArea_KIA.Text = "Найти общее среднее значение площади";
-            this.toolTipMain_KIA.SetToolTip(this.iconButtonAvgArea_KIA, "Поиск");
+            this.toolTipMain_KIA.SetToolTip(this.iconButtonAvgArea_KIA, "Найти среднее значение площади всех стран");
             this.iconButtonAvgArea_KIA.UseVisualStyleBackColor = true;
             this.iconButtonAvgArea_KIA.Click += new System.EventHandler(this.iconButtonAvgArea_KIA_Click);
             // 
